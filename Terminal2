@@ -1,0 +1,139 @@
+Last login: Tue Mar  3 16:46:22 on ttys004
+citrounette@MacBook-Pro-de-Clementine ~ % cd ~/quetes/shell                    
+citrounette@MacBook-Pro-de-Clementine shell % brew install tree wget unzip
+Updating Homebrew...
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> Updated Formulae
+git-quick-stats
+
+Warning: tree 1.8.0 is already installed and up-to-date
+To reinstall 1.8.0, run `brew reinstall tree`
+Warning: unzip 6.0_6 is already installed and up-to-date
+To reinstall 6.0_6, run `brew reinstall unzip`
+==> Installing dependencies for wget: gettext, libunistring, libidn2 and openssl@1.1
+==> Installing wget dependency: gettext
+==> Downloading https://homebrew.bintray.com/bottles/gettext-0.20.1.catalina.bot
+==> Downloading from https://akamai.bintray.com/10/107d7f386fbeea6979f9376cdbbcf
+######################################################################## 100.0%
+==> Pouring gettext-0.20.1.catalina.bottle.tar.gz
+==> Caveats
+gettext is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides the BSD gettext library & some software gets confused if both are in the library path.
+
+If you need to have gettext first in your PATH run:
+  echo 'export PATH="/usr/local/opt/gettext/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find gettext you may need to set:
+  export LDFLAGS="-L/usr/local/opt/gettext/lib"
+  export CPPFLAGS="-I/usr/local/opt/gettext/include"
+
+==> Summary
+🍺  /usr/local/Cellar/gettext/0.20.1: 1,893 files, 18.4MB
+==> Installing wget dependency: libunistring
+==> Downloading https://homebrew.bintray.com/bottles/libunistring-0.9.10.catalin
+==> Downloading from https://akamai.bintray.com/ce/ce746662b98d93511b86920011b5c
+######################################################################## 100.0%
+==> Pouring libunistring-0.9.10.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/libunistring/0.9.10: 54 files, 4.4MB
+==> Installing wget dependency: libidn2
+==> Downloading https://homebrew.bintray.com/bottles/libidn2-2.3.0.catalina.bott
+==> Downloading from https://akamai.bintray.com/09/0908585cca518a83f101b2edc0417
+######################################################################## 100.0%
+==> Pouring libidn2-2.3.0.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/libidn2/2.3.0: 70 files, 727.8KB
+==> Installing wget dependency: openssl@1.1
+==> Downloading https://homebrew.bintray.com/bottles/openssl@1.1-1.1.1d.catalina
+==> Downloading from https://akamai.bintray.com/d7/d7f992ebfd78f80828051f6dc6a1a
+######################################################################## 100.0%
+==> Pouring openssl@1.1-1.1.1d.catalina.bottle.tar.gz
+==> Caveats
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl@1.1/certs
+
+and run
+  /usr/local/opt/openssl@1.1/bin/c_rehash
+
+openssl@1.1 is keg-only, which means it was not symlinked into /usr/local,
+because openssl/libressl is provided by macOS so don't link an incompatible version.
+
+If you need to have openssl@1.1 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find openssl@1.1 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+
+==> Summary
+🍺  /usr/local/Cellar/openssl@1.1/1.1.1d: 7,983 files, 17.9MB
+==> Installing wget
+==> Downloading https://homebrew.bintray.com/bottles/wget-1.20.3_2.catalina.bott
+==> Downloading from https://akamai.bintray.com/ef/ef65c759c5097a36323fa9c777564
+######################################################################## 100.0%
+==> Pouring wget-1.20.3_2.catalina.bottle.tar.gz
+🍺  /usr/local/Cellar/wget/1.20.3_2: 50 files, 4.0MB
+==> Caveats
+==> gettext
+gettext is keg-only, which means it was not symlinked into /usr/local,
+because macOS provides the BSD gettext library & some software gets confused if both are in the library path.
+
+If you need to have gettext first in your PATH run:
+  echo 'export PATH="/usr/local/opt/gettext/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find gettext you may need to set:
+  export LDFLAGS="-L/usr/local/opt/gettext/lib"
+  export CPPFLAGS="-I/usr/local/opt/gettext/include"
+
+==> openssl@1.1
+A CA file has been bootstrapped using certificates from the system
+keychain. To add additional certificates, place .pem files in
+  /usr/local/etc/openssl@1.1/certs
+
+and run
+  /usr/local/opt/openssl@1.1/bin/c_rehash
+
+openssl@1.1 is keg-only, which means it was not symlinked into /usr/local,
+because openssl/libressl is provided by macOS so don't link an incompatible version.
+
+If you need to have openssl@1.1 first in your PATH run:
+  echo 'export PATH="/usr/local/opt/openssl@1.1/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find openssl@1.1 you may need to set:
+  export LDFLAGS="-L/usr/local/opt/openssl@1.1/lib"
+  export CPPFLAGS="-I/usr/local/opt/openssl@1.1/include"
+
+citrounette@MacBook-Pro-de-Clementine shell % wget https://github.com/bhubr/bhubr.github.io/raw/master/wild/planets.zip
+--2020-03-03 17:10:31--  https://github.com/bhubr/bhubr.github.io/raw/master/wild/planets.zip
+Résolution de github.com (github.com)… 140.82.118.4
+Connexion à github.com (github.com)|140.82.118.4|:443… connecté.
+requête HTTP transmise, en attente de la réponse… 302 Found
+Emplacement : https://raw.githubusercontent.com/bhubr/bhubr.github.io/master/wild/planets.zip [suivant]
+--2020-03-03 17:10:31--  https://raw.githubusercontent.com/bhubr/bhubr.github.io/master/wild/planets.zip
+Résolution de raw.githubusercontent.com (raw.githubusercontent.com)… 151.101.0.133, 151.101.64.133, 151.101.128.133, ...
+Connexion à raw.githubusercontent.com (raw.githubusercontent.com)|151.101.0.133|:443… connecté.
+requête HTTP transmise, en attente de la réponse… 200 OK
+Taille : 300234 (293K) [application/zip]
+Sauvegarde en : « planets.zip »
+
+planets.zip         100%[===================>] 293,20K  --.-KB/s    ds 0,02s   
+
+2020-03-03 17:10:31 (12,1 MB/s) — « planets.zip » sauvegardé [300234/300234]
+
+citrounette@MacBook-Pro-de-Clementine shell % eog planets
+zsh: command not found: eog
+citrounette@MacBook-Pro-de-Clementine shell % unzip planets.zip
+Archive:  planets.zip
+   creating: planets/
+  inflating: planets/mercury.jpeg    
+  inflating: planets/earth.jpeg      
+  inflating: planets/pluto.jpeg      
+  inflating: planets/arrakis.jpeg    
+  inflating: planets/jupiter.jpeg    
+  inflating: planets/venus.jpeg      
+  inflating: planets/mars.jpeg       
+  inflating: planets/cybertron.jpeg  
+  inflating: planets/coruscant.jpeg  
+  inflating: planets/uranus.jpeg     
+  inflating: planets/neptune.jpeg    
+  inflating: planets/saturn.jpe
