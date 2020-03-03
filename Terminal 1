@@ -1,0 +1,603 @@
+Last login: Tue Mar  3 10:23:23 on ttys000
+citrounette@MacBook-Pro-de-Clementine ~ % ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+citrounette@MacBook-Pro-de-Clementine ~ % ls .
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures
+citrounette@MacBook-Pro-de-Clementine ~ % ls -a
+.			.cups			Downloads
+..			.vscode			Library
+.CFUserTextEncoding	.zsh_history		Movies
+.DS_Store		Applications		Music
+.Trash			Desktop			Pictures
+.bash_profile		Documents		Public
+citrounette@MacBook-Pro-de-Clementine ~ % pwd      
+/Users/citrounette
+citrounette@MacBook-Pro-de-Clementine ~ % ls /home
+citrounette@MacBook-Pro-de-Clementine ~ % pwd
+/Users/citrounette
+citrounette@MacBook-Pro-de-Clementine ~ % ls /bin
+[		dd		launchctl	pwd		test
+bash		df		link		rm		unlink
+cat		echo		ln		rmdir		wait4path
+chmod		ed		ls		sh		zsh
+cp		expr		mkdir		sleep
+csh		hostname	mv		stty
+dash		kill		pax		sync
+date		ksh		ps		tcsh
+citrounette@MacBook-Pro-de-Clementine ~ % cd Documents
+citrounette@MacBook-Pro-de-Clementine Documents % pwd
+/Users/citrounette/Documents
+citrounette@MacBook-Pro-de-Clementine Documents % ls -a
+.					Images
+..					Site_web1
+.DS_Store				convention Clementine - copie.pdf
+.localized				convention Clementine -.pdf
+CV-green				spirax
+citrounette@MacBook-Pro-de-Clementine Documents % ls /home
+citrounette@MacBook-Pro-de-Clementine Documents % ls /users
+Shared		citrounette
+citrounette@MacBook-Pro-de-Clementine Documents % ls -l /bin
+total 4896
+-rwxr-xr-x  1 root  wheel    35824 23 jan 14:59 [
+-r-xr-xr-x  1 root  wheel   623344 23 jan 14:59 bash
+-rwxr-xr-x  1 root  wheel    36768 23 jan 14:59 cat
+-rwxr-xr-x  1 root  wheel    47296 23 jan 14:59 chmod
+-rwxr-xr-x  1 root  wheel    42272 23 jan 14:59 cp
+-rwxr-xr-x  1 root  wheel   528688 23 jan 14:59 csh
+-rwxr-xr-x  1 root  wheel   110848 23 jan 14:59 dash
+-rwxr-xr-x  1 root  wheel    41728 23 jan 14:59 date
+-rwxr-xr-x  1 root  wheel    45168 23 jan 14:59 dd
+-rwxr-xr-x  1 root  wheel    36512 23 jan 14:59 df
+-rwxr-xr-x  1 root  wheel    31264 23 jan 14:59 echo
+-rwxr-xr-x  1 root  wheel    67200 23 jan 14:59 ed
+-rwxr-xr-x  1 root  wheel    36240 23 jan 14:59 expr
+-rwxr-xr-x  1 root  wheel    31408 23 jan 14:59 hostname
+-rwxr-xr-x  1 root  wheel    31808 23 jan 14:59 kill
+-r-xr-xr-x  1 root  wheel  1300128 23 jan 14:59 ksh
+-rwxr-xr-x  1 root  wheel   138432 23 jan 14:59 launchctl
+-rwxr-xr-x  1 root  wheel    32176 23 jan 14:59 link
+-rwxr-xr-x  1 root  wheel    32176 23 jan 14:59 ln
+-rwxr-xr-x  1 root  wheel    51888 23 jan 14:59 ls
+-rwxr-xr-x  1 root  wheel    31696 23 jan 14:59 mkdir
+-rwxr-xr-x  1 root  wheel    37472 23 jan 14:59 mv
+-rwxr-xr-x  1 root  wheel   124464 23 jan 14:59 pax
+-rwsr-xr-x  1 root  wheel    64416 23 jan 14:59 ps
+-rwxr-xr-x  1 root  wheel    31392 23 jan 14:59 pwd
+-rwxr-xr-x  1 root  wheel    37312 23 jan 14:59 rm
+-rwxr-xr-x  1 root  wheel    31296 23 jan 14:59 rmdir
+-rwxr-xr-x  1 root  wheel    31440 23 jan 14:59 sh
+-rwxr-xr-x  1 root  wheel    31200 23 jan 14:59 sleep
+-rwxr-xr-x  1 root  wheel    45312 23 jan 14:59 stty
+-rwxr-xr-x  1 root  wheel    30976 23 jan 14:59 sync
+-rwxr-xr-x  1 root  wheel   528688 23 jan 14:59 tcsh
+-rwxr-xr-x  1 root  wheel    35824 23 jan 14:59 test
+-rwxr-xr-x  1 root  wheel    37312 23 jan 14:59 unlink
+-rwxr-xr-x  1 root  wheel    31280 23 jan 14:59 wait4path
+-rwxr-xr-x  1 root  wheel   633328 23 jan 14:59 zsh
+citrounette@MacBook-Pro-de-Clementine Documents % 
+citrounette@MacBook-Pro-de-Clementine Documents % 
+citrounette@MacBook-Pro-de-Clementine Documents % cd ~
+citrounette@MacBook-Pro-de-Clementine ~ % pwd
+/Users/citrounette
+citrounette@MacBook-Pro-de-Clementine ~ % cd ../documents
+cd: no such file or directory: ../documents
+citrounette@MacBook-Pro-de-Clementine ~ % cd ../users/citrounette/documents
+cd: no such file or directory: ../users/citrounette/documents
+citrounette@MacBook-Pro-de-Clementine ~ % cd /opt users/citrounette/documents
+cd: string not in pwd: /opt
+citrounette@MacBook-Pro-de-Clementine ~ % pwd
+/Users/citrounette
+citrounette@MacBook-Pro-de-Clementine ~ % cd /usr/bin
+citrounette@MacBook-Pro-de-Clementine bin % ls
+2to3-					machine
+2to3-2.7				mail
+AssetCacheLocatorUtil			mailq
+AssetCacheManagerUtil			mailx
+AssetCacheTetheratorUtil		make
+BuildStrings				makeinfo
+CpMac					malloc_history
+DeRez					man
+GetFileInfo				manpath
+IOAccelMemory				mcxquery
+MergePef				mcxrefresh
+MvMac					mddiagnose
+ResMerger				mdfind
+Rez					mdimport
+RezDet					mdls
+RezWack					mdutil
+SafeEjectGPU				memory_pressure
+SetFile					mesg
+SplitForks				mg
+UnRezWack				mib2c
+a2p					mib2c-update
+a2p5.18					mig
+actool					mkbom
+addftinfo				mkdep
+afclip					mkfifo
+afconvert				mklocale
+afhash					mktemp
+afida					mmroff
+afinfo					mnthome
+afmtodit				moo-outdated
+afplay					moo-outdated5.18
+afscexpand				moo-outdated5.28
+agentxtrap				moose-outdated
+agvtool					moose-outdated5.18
+alias					moose-outdated5.28
+app-sso					more
+applesingle				mp2bug
+appletviewer				msgs
+apply					nano
+apropos					native2ascii
+apt					nbdst
+ar					nc
+arch					ncal
+as					ncctl
+asa					ncdestroy
+asctl					ncinit
+assetutil				nclist
+at					ncurses5.4-config
+atos					neqn
+atq					net-server
+atrm					net-server5.18
+atsutil					net-server5.28
+automator				net-snmp-cert
+auval					net-snmp-config
+auvaltool				net-snmp-create-v3-user
+avbdiagnose				nettop
+avbutil					newaliases
+avconvert				newgrp
+avmetareadwrite				newproc.d
+awk					nfsstat
+banner					nice
+base64					nl
+basename				nm
+bashbug					nmedit
+batch					nohup
+bc					notifyutil
+bg					nroff
+biff					nscurl
+binhex					nslookup
+binhex.pl				nsupdate
+binhex5.18.pl				objdump
+binhex5.28.pl				ocspcheck
+bioutil					od
+bison					odutil
+bitesize.d				open
+brctl					opendiff
+bsdtar					opensnoop
+bspatch					openssl
+bundle					orbd
+bundler					osacompile
+bunzip2					osadecompile
+bzcat					osalang
+bzcmp					osascript
+bzdiff					otool
+bzegrep					pack200
+bzfgrep					package-stash-conflicts
+bzgrep					package-stash-conflicts5.18
+bzip2					package-stash-conflicts5.28
+bzip2recover				pagesize
+bzless					pagestuff
+bzmore					passwd
+c++					paste
+c++filt					patch
+c2ph					pathchk
+c2ph5.18				pathopens.d
+c89					pbcopy
+c99					pbpaste
+caffeinate				pcap-config
+cal					pcsctest
+calendar				perl
+cancel					perl5.18
+cap_mkdb				perl5.28
+captoinfo				perlbug
+cc					perlbug5.18
+cd					perlbug5.28
+certtool				perldoc
+checknr					perldoc5.18
+chflags					perldoc5.28
+chfn					perlivp
+chgrp					perlivp5.18
+chpass					perlivp5.28
+chsh					perlthanks
+cksum					perlthanks5.18
+clang					perlthanks5.28
+clang++					pfbtops
+clear					pgrep
+cmp					phar
+cmpdylib				phar.phar
+codesign				php
+codesign_allocate			php-config
+col					phpize
+colcrt					pic
+colldef					pico
+colrm					piconv
+column					piconv5.18
+comm					piconv5.28
+command					pidpersec.d
+compress				pip3
+compression_tool			pkgbuild
+config_data				pkill
+config_data5.18				pl
+corelist				pl2pm
+corelist5.18				pl2pm5.18
+corelist5.28				pl2pm5.28
+cpan					plockstat
+cpan2dist				pluginkit
+cpan2dist5.18				plutil
+cpan5.18				pmset
+cpan5.28				pod2html
+cpanp					pod2html5.18
+cpanp-run-perl				pod2html5.28
+cpanp-run-perl5.18			pod2latex
+cpanp5.18				pod2latex5.18
+cpio					pod2man
+cpp					pod2man5.18
+cpu_profiler.d				pod2man5.28
+cpuctl					pod2readme
+cpuwalk.d				pod2readme5.18
+crc32					pod2readme5.28
+crc325.18				pod2text
+crc325.28				pod2text5.18
+creatbyproc.d				pod2text5.28
+crlrefresh				pod2usage
+crontab					pod2usage5.18
+csdiagnose				pod2usage5.28
+csgather				podchecker
+csplit					podchecker5.18
+csreq					podchecker5.28
+csrutil					podselect
+ctags					podselect5.18
+ctf_insert				podselect5.28
+cu					policytool
+cups-config				post-grohtml
+cupstestppd				power_report.sh
+curl					powermetrics
+curl-config				ppdc
+cut					ppdhtml
+cvaffinity				ppdi
+cvcp					ppdmerge
+cvmkdir					ppdpo
+cvmkfile				pr
+dappprof				pre-grohtml
+dapptrace				priclass.d
+darwinup				pridist.d
+db_archive				printenv
+db_checkpoint				printf
+db_codegen				procsystime
+db_deadlock				productbuild
+db_dump					productsign
+db_hotbackup				profiles
+db_load					prove
+db_printlog				prove5.18
+db_recover				prove5.28
+db_stat					psed
+db_upgrade				psed5.18
+db_verify				pstopdf
+dbicadmin				pstruct
+dbicadmin5.18				pstruct5.18
+dbicadmin5.28				ptar
+dbilogstrip				ptar5.18
+dbilogstrip5.18				ptar5.28
+dbilogstrip5.28				ptardiff
+dbiprof					ptardiff5.18
+dbiprof5.18				ptardiff5.28
+dbiprof5.28				ptargrep
+dbiproxy				ptargrep5.18
+dbiproxy5.18				ptargrep5.28
+dbiproxy5.28				pwhich
+dc					pwhich5.18
+debinhex.pl				pwhich5.28
+debinhex5.18.pl				pwpolicy
+debinhex5.28.pl				pydoc
+defaults				pydoc2.7
+delv					python
+desdp					python-config
+diagnose-fu				python2
+diff					python2.7
+diff3					python2.7-config
+diffstat				python3
+dig					pythonw
+dirname					pythonw2.7
+dispqlen.d				qlmanage
+ditto					quota
+dmc					rails
+dns-sd					rake
+drutil					ranlib
+dscacheutil				rdoc
+dscl					read
+dserr					readlink
+dsexport				rebase
+dsimport				redo_prebinding
+dsmemberutil				refer
+dsymutil				renice
+dtruss					reset
+du					resolveLinks
+dwarfdump				rev
+easy_install				ri
+easy_install-2.7			rmic
+egrep					rmid
+enc2xs					rmiregistry
+enc2xs5.18				rpcgen
+enc2xs5.28				rs
+encguess				rsync
+encguess5.28				ruby
+encode_keychange			rview
+env					rvim
+eqn					rwbypid.d
+erb					rwbytype.d
+errinfo					rwsnoop
+ex					s2p
+execsnoop				s2p5.18
+expand					safaridriver
+expect					sample
+extcheck				sampleproc
+eyapp					sandbox-exec
+eyapp5.18				say
+eyapp5.28				sc_usage
+false					scandeps.pl
+fc					scandeps5.18.pl
+fddist					scandeps5.28.pl
+fdesetup				schemagen
+fg					scp
+fgrep					screen
+file					script
+filebyproc.d				sdef
+fileproviderctl				sdiff
+filtercalltree				sdp
+find					sdx
+find2perl				security
+find2perl5.18				sed
+findrule				seeksize.d
+findrule5.18				segedit
+findrule5.28				seq
+finger					serialver
+fixproc					servertool
+flex					setregion
+flex++					setuids.d
+fmt					sfltool
+fold					sftp
+fontrestore				shar
+footprint				shasum
+format-sql				shasum5.18
+format-sql5.18				shasum5.28
+format-sql5.28				shlock
+from					showmount
+fs_usage				sigdist.d
+funzip					sips
+fuser					size
+fwkdp					slogin
+fwkpfv					smbutil
+g++					smtpd.py
+gatherheaderdoc				smtpd2.7.py
+gcc					snfsdefrag
+gcore					snmp-bridge-mib
+gcov					snmpbulkget
+gdiffmk					snmpbulkwalk
+gem					snmpconf
+gen_bridge_metadata			snmpdelta
+gencat					snmpdf
+genstrings				snmpget
+getconf					snmpgetnext
+getopt					snmpinform
+getopts					snmpnetstat
+git					snmpset
+git-receive-pack			snmpstatus
+git-shell				snmptable
+git-upload-archive			snmptest
+git-upload-pack				snmptranslate
+gm4					snmptrap
+gnumake					snmpusm
+gperf					snmpvacm
+grep					snmpwalk
+grn					sntp
+grodvi					soelim
+groff					sort
+groffer					spfd
+grog					spfd5.18
+grolbp					spfd5.28
+grolj4					spfquery
+grops					spfquery5.18
+grotty					spfquery5.28
+groups					splain
+gunzip					splain5.18
+gzcat					splain5.28
+gzexe					split
+gzip					sqlite3
+h2ph					ssh
+h2ph5.18				ssh-add
+h2ph5.28				ssh-agent
+h2xs					ssh-copy-id
+h2xs5.18				ssh-keygen
+h2xs5.28				ssh-keyscan
+hash					stapler
+hdid					stat
+hdiutil					stringdups
+hdxml2manxml				strings
+head					strip
+headerdoc2html				stty.pl
+heap					stty5.18.pl
+hexdump					stty5.28.pl
+hidutil					su
+hiutil					sudo
+host					sum
+hostinfo				svn
+hotspot.d				svnlook
+hpftodit				svnversion
+hpmdiagnose				sw_vers
+htmltree				swift
+htmltree5.18				swiftc
+htmltree5.28				symbols
+ibtool					symbolscache
+iconutil				syscallbypid.d
+iconv					syscallbyproc.d
+ictool					syscallbysysc.d
+id					sysdiagnose
+idle					syslog
+idle2.7					systemextensionsctl
+idlj					tab2space
+imptrace				tabs
+indent					tail
+indxbib					tailspin
+info					talk
+infocmp					tar
+infokey					taskinfo
+infotocap				tbl
+install					tbtdiagnose
+install-info				tccutil
+install_name_tool			tclsh
+instmodsh				tclsh8.5
+instmodsh5.18				tee
+instmodsh5.28				texi2dvi
+instruments				texi2pdf
+iofile.d				texindex
+iofileb.d				textutil
+iopattern				tfmtodit
+iopending				tftp
+iosnoop					thermal
+iotop					tic
+ip2cc					tidy
+ip2cc5.18				tiff2icns
+ip2cc5.28				tiffutil
+ipcount					time
+ipcount5.18				timer_analyser.d
+ipcount5.28				timerfires
+ipcrm					timesyncanalyse
+ipcs					tkcon
+ippeveprinter				tkmib
+ippfind					tmdiagnose
+ipptool					tmutil
+iprofiler				tnameserv
+iptab					toe
+iptab5.18				top
+iptab5.28				tops
+irb					topsyscall
+jar					topsysproc
+jarsigner				touch
+java					tput
+javac					tr
+javadoc					trace
+javah					traptoemail
+javap					treereg
+javapackager				treereg5.18
+javaws					treereg5.28
+jcmd					trimforce
+jconsole				troff
+jcontrol				true
+jdb					tset
+jdeps					tsort
+jhat					tty
+jhsdb					type
+jimage					ul
+jinfo					ulimit
+jjs					umask
+jmap					unalias
+jmc					uname
+jobs					uncompress
+join					unexpand
+jot					unifdef
+jps					unifdefall
+jrunscript				uniq
+jsadebugd				units
+jshell					unpack200
+json_pp					unvis
+json_pp5.18				unzip
+json_pp5.28				unzipsfx
+json_xs					update_dyld_shared_cache
+json_xs5.28				update_dyld_shared_cache_root_mode
+jstack					uptime
+jstat					users
+jstatd					uucp
+jvisualvm				uudecode
+kcc					uuencode
+kdestroy				uuidgen
+kextutil				uulog
+keytool					uuname
+kgetcred				uupick
+kill.d					uustat
+killall					uuto
+kinit					uux
+klist					vi
+kpasswd					view
+krb5-config				vim
+kswitch					vimdiff
+ktrace					vimtutor
+lam					vis
+last					vm_stat
+lastcomm				vmmap
+lastwords				vtool
+latency					w
+layerutil				wait
+ld					wall
+ldapadd					wc
+ldapcompare				wdutil
+ldapdelete				what
+ldapexop				whatis
+ldapmodify				whereis
+ldapmodrdn				which
+ldappasswd				who
+ldapsearch				whoami
+ldapurl					whois
+ldapwhoami				wish
+leaks					wish8.5
+leave					write
+less					wsgen
+lessecho				wsimport
+lex					xar
+libnetcfg				xargs
+libnetcfg5.18				xattr
+libnetcfg5.28				xattr-2.7
+libtool					xcode-select
+lipo					xcodebuild
+lkbib					xcrun
+lldb					xcscontrol
+llvm-g++				xcsdiagnose
+llvm-gcc				xed
+loads.d					xgettext.pl
+locale					xgettext5.18.pl
+localedef				xgettext5.28.pl
+locate					xip
+lockstat				xjc
+log					xml2-config
+logger					xml2man
+login					xmlcatalog
+logname					xmllint
+look					xpath
+lookbib					xpath5.18
+lorder					xpath5.28
+lp					xslt-config
+lpoptions				xsltproc
+lpq					xsubpp
+lpr					xsubpp5.18
+lprm					xsubpp5.28
+lpstat					xxd
+lsappinfo				yaa
+lsbom					yacc
+lskq					yes
+lsm					zcat
+lsmp					zcmp
+lsvfs					zdiff
+lwp-download				zegrep
+lwp-download5.18			zfgrep
+lwp-download5.28			zforce
+lwp-dump				zgrep
+lwp-dump5.18				zip
+lwp-dump5.28				zipcloak
+lwp-mirror				zipdetails
+lwp-mirror5.18				zipdetails5.18
+lwp-mirror5.28				zipdetails5.28
+lwp-request				zipgrep
+lwp-request5.18				zipinfo
+lwp-request5.28				zipnote
+m4					zipsplit
+macbinary				zless
+macerror				zmore
+macerror5.18				znew
+macerror5.28				zprint
+citrounette@MacBook-Pro-de-Clementine bin % cd ~/Documents
+citrounette@MacBook-Pro-de-Clementine Documents % pwd
+/Users/citrounette/Documents
+citrounette@MacBook-Pro-de-Clementine Documents % 
