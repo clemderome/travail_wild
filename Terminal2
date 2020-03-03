@@ -120,8 +120,6 @@ planets.zip         100%[===================>] 293,20K  --.-KB/s    ds 0,02s
 
 2020-03-03 17:10:31 (12,1 MB/s) — « planets.zip » sauvegardé [300234/300234]
 
-citrounette@MacBook-Pro-de-Clementine shell % eog planets
-zsh: command not found: eog
 citrounette@MacBook-Pro-de-Clementine shell % unzip planets.zip
 Archive:  planets.zip
    creating: planets/
@@ -137,3 +135,9 @@ Archive:  planets.zip
   inflating: planets/uranus.jpeg     
   inflating: planets/neptune.jpeg    
   inflating: planets/saturn.jpe
+citrounette@MacBook-Pro-de-Clementine planets % mkdir -p real fictionnal inhabited
+citrounette@MacBook-Pro-de-Clementine planets % ls  
+arrakis.jpeg	fictionnal	mercury.jpeg	real
+coruscant.jpeg	inhabited	neptune.jpeg	saturn.jpeg
+cybertron.jpeg	jupiter.jpeg	planets		uranus.jpeg
+earth.jpeg	mars.jpeg	pluto.jpeg	venus.jpeg
