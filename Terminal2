@@ -21,10 +21,7 @@
 │           └── venus.jpeg
 └── planets.zip
 
-citrounette@MBPdeClementine shell % history
-  426  ls
-  427  cd telluric
-  428  cd ../inhabited
+  444  citrounette@MBPdeClementine planets % history
   429  cd ..
   430  cd ..
   431  cd real
@@ -37,7 +34,10 @@ citrounette@MBPdeClementine shell % history
   438  cd planets/inhabited
   439  cd ..
   440  cd real
-  441  cd ../..
+  441  cd ..
+  442  cd planets
+  443  tree
+  444  history
 
 ---------------------------------------------------------------------
 
