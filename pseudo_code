@@ -1,0 +1,6 @@
+Début maxBonbons (entier)
+  tant que argent > prix
+    maxBonbons <- maxBonbons +1
+   fin tant que
+   retourner maxBonbons
+Fin maxBonbons
