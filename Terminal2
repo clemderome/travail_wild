@@ -141,3 +141,43 @@ arrakis.jpeg	fictionnal	mercury.jpeg	real
 coruscant.jpeg	inhabited	neptune.jpeg	saturn.jpeg
 cybertron.jpeg	jupiter.jpeg	planets		uranus.jpeg
 earth.jpeg	mars.jpeg	pluto.jpeg	venus.jpeg
+citrounette@MacBook-Pro-de-Clementine planets % cd real
+citrounette@MacBook-Pro-de-Clementine real % mkdir -p telluric gas-giants dwarf-planets
+citrounette@MacBook-Pro-de-Clementine real % ls
+dwarf-planets	gas-giants	telluric
+citrounette@MacBook-Pro-de-Clementine real % mv telluric gas-giants dwarf-planets ~/quetes/shell/planets/fictionnal
+citrounette@MacBook-Pro-de-Clementine real % ls
+citrounette@MacBook-Pro-de-Clementine real % cd ..
+citrounette@MacBook-Pro-de-Clementine planets % cd fictionnal
+citrounette@MacBook-Pro-de-Clementine fictionnal % ls
+dwarf-planets	gas-giants	telluric
+citrounette@MacBook-Pro-de-Clementine fictionnal % mv telluric gas-giants dwarf-planets ~?quetes/shell/planets/real
+zsh: no matches found: ~?quetes/shell/planets/real
+citrounette@MacBook-Pro-de-Clementine fictionnal % cd real
+cd: no such file or directory: real
+citrounette@MacBook-Pro-de-Clementine fictionnal % cd ..
+citrounette@MacBook-Pro-de-Clementine planets % cd real
+citrounette@MacBook-Pro-de-Clementine real % ls
+citrounette@MacBook-Pro-de-Clementine real % mv telluric gas-giants dwarf-planets ~/quetes/shell/planets/real
+mv: rename telluric to /Users/citrounette/quetes/shell/planets/real/telluric: No such file or directory
+mv: rename gas-giants to /Users/citrounette/quetes/shell/planets/real/gas-giants: No such file or directory
+mv: rename dwarf-planets to /Users/citrounette/quetes/shell/planets/real/dwarf-planets: No such file or directory
+citrounette@MacBook-Pro-de-Clementine real % cd ..
+citrounette@MacBook-Pro-de-Clementine planets % cd fictionnal
+citrounette@MacBook-Pro-de-Clementine fictionnal % mv telluric gas-giants dwarf-planets ~/quetes/shell/planets/real
+citrounette@MacBook-Pro-de-Clementine fictionnal % cd ..
+citrounette@MacBook-Pro-de-Clementine planets % cd real
+citrounette@MacBook-Pro-de-Clementine real % ls
+dwarf-planets	gas-giants	telluric
+citrounette@MacBook-Pro-de-Clementine real % cd ..
+citrounette@MacBook-Pro-de-Clementine planets % ls
+arrakis.jpeg	earth.jpeg	jupiter.jpeg	neptune.jpeg	real		venus.jpeg
+coruscant.jpeg	fictionnal	mars.jpeg	planets		saturn.jpeg
+cybertron.jpeg	inhabited	mercury.jpeg	pluto.jpeg	uranus.jpeg
+citrounette@MacBook-Pro-de-Clementine planets % mv earth.jpeg jupiter.jpeg neptune.jpeg venus.jpeg mars.jpeg mercury.jpeg pluto.jpeg uranus.jpeg saturn.jpeg ~/quetes/shell/planets/real
+citrounette@MacBook-Pro-de-Clementine planets % cd real
+citrounette@MacBook-Pro-de-Clementine real % ls
+dwarf-planets	gas-giants	mars.jpeg	neptune.jpeg	saturn.jpeg	uranus.jpeg
+earth.jpeg	jupiter.jpeg	mercury.jpeg	pluto.jpeg	telluric	venus.jpeg
+
+
