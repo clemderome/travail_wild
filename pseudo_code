@@ -2,9 +2,11 @@ maxBonbons entier = 0
 
 Début maxBonbons (réel argent, réel prix)
   Si argent > 0 && prix > 0
-    tant que argent = argent - prix
     tant que argent >= prix
       maxBonbons <- maxBonbons +1
+      argent <- argent - prix
    fin tant que
+  fin Si
    retourner maxBonbons
+   
 Fin maxBonbons
