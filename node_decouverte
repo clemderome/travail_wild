@@ -1,0 +1,22 @@
+
+console.log('How old are you ?')
+process.stdin.on('data', (number) => {
+    if (number > 99 ) { 
+        console.log('I can\'t help you')
+        process.exit()
+    } else { 
+        number = 2020 - number
+    }
+    console.log('Your year of birth is  ' + number)
+    process.exit()
+})
+
+➜  Node node app.js
+How old are you ?
+26
+Your year of birth is  1994
+➜  Node node app.js
+How old are you ?
+120
+I can't help you
+
